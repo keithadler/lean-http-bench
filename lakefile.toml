@@ -1,0 +1,13 @@
+name = "lean-http-bench"
+defaultTargets = ["lean-http-server", "sel-bench"]
+
+[[lean_lib]]
+name = "FastRecv"
+
+[[lean_exe]]
+name = "lean-http-server"
+root = "Main"
+
+[[lean_exe]]
+name = "sel-bench"
+root = "SelBench"
